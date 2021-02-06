@@ -26,6 +26,7 @@ class MyDocument extends Document {
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
             <link rel="stylesheet" href="/static/css/style.css" />
+            {/* <link rel="stylesheet" href="../node_modules/react-quill/dist/quill.snow.css"/> */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-XX4LZ2MD0H"></script>
             <script dangerouslySetInnerHTML={this.setGoogleTags()} />
         </Head>
