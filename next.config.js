@@ -6,7 +6,7 @@ module.exports=withCSS({
     {
         APP_NAME:"BLOGSPOT",
         API_DEV:"http://localhost:3000/api",
-        API_PROD:"https://blogspot-api.herokuapp.com",
+        API_PROD:"https://blogspot-api.herokuapp.com/api",
         PRODUCTION:true,
         DOMAIN_DEVELOPMENT:'http://localhost:3000',
         DOMAIN_DEVELOPMENT:'blogspot.theexpresscoder.com',
