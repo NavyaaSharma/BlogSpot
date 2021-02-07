@@ -6,8 +6,10 @@ module.exports=withCSS({
     {
         APP_NAME:"BLOGSPOT",
         API_DEV:"http://localhost:3000/api",
-        PRODUCTION:false,
+        API_PROD:"https://blogspot-api.herokuapp.com",
+        PRODUCTION:true,
         DOMAIN_DEVELOPMENT:'http://localhost:3000',
+        DOMAIN_DEVELOPMENT:'blogspot.theexpresscoder.com',
         FB_APP_ID:'',
         DISQUS_SHORTNAME:'blogspot-4',
         SENDGRID_API_KEY:'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'
