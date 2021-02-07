@@ -5,7 +5,7 @@ const Index = () => {
     return (
         <div className="content2">
         <Layout>
-            <article className="overflow-hidden">
+            {/* <article className="overflow-hidden">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
@@ -70,7 +70,8 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-            </article>
+            </article> */}
+            <h1>index page</h1>
         </Layout>
         </div>
     );
