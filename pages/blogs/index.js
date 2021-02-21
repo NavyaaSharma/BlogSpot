@@ -135,7 +135,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
     
 Blogs.getInitialProps = async() => {
     let skip = 0;
-    let limit = 2;
+    let limit = 5;
     var data= await listBlogsWithCategoriesAndTags(skip, limit)
     console.log(data)
     return{
