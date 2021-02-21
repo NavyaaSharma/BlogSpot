@@ -36,7 +36,7 @@ const Index = () => {
                             <img src="../static/images/interview.jpg" width="60%" height="250px" alt="frwe"/>
                         </div>
                     </div>
-                    <div className="row card mb-3 ml-5 mr-5">
+                    {/* <div className="row card mb-3 ml-5 mr-5">
                         <div className="p-3">
                             <h2 className="card-title text-center">Want to start/excel Competitive Coding?</h2>
                             <p className="card-text fsize text-center">We recommend practicing problems from Leetcode and/or Geeks For Geeks, and make sure you solve the daily challenge of leetcode that comes every month.
@@ -46,8 +46,8 @@ const Index = () => {
                         <div className="col-md-12 text-center pb-3">
                             <img src="../static/images/leetcode.png" width="60%" height="250px" alt="frwe"/>
                         </div>
-                    </div>
-                    <div className="row card mb-3 ml-5 mr-5">
+                    </div> */}
+                    {/* <div className="row card mb-3 ml-5 mr-5">
                         <div className="p-3">
                             <h2 className="card-title text-center">Want to become an AllRounder in VIT? - COMING SOON</h2>
                             <p className="card-text fsize text-center">Do you feel pressurized by the load that VIT puts on you through academics? Are you unable to 
@@ -58,7 +58,7 @@ const Index = () => {
                         <div className="col-md-12 text-center pb-3">
                             <img src="../static/images/allrounder.jpeg" width="60%" height="250px" alt="frwe"/>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="row card mb-3 ml-5 mr-5">
                         <div className="p-3">
                             <h2 className="card-title text-center">Technical Blogs - COMING SOON</h2>

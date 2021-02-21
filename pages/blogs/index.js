@@ -15,20 +15,20 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
             <title>Blogs | {APP_NAME}</title>
             <meta
                 name="description"
-                content="Programming blogs and tutorials on react node next vue php laravel and web developoment"
+                content="Blogs for VIT Students.. Explore technical content, interview experiences and much more!"
             />
             <link rel="canonical" href={`${DOMAIN}${router.pathname}`} />
-            <meta property="og:title" content={`Latest web developoment tutorials | ${APP_NAME}`} />
+            <meta property="og:title" content={`One Stop Blogging Platform For VITians. | ${APP_NAME}`} />
             <meta
                 property="og:description"
-                content="Programming blogs and tutorials on react node next vue php laravel and web developoment"
+                content="Blogs for VIT Students.. Explore technical content, interview experiences and much more!"
             />
             <meta property="og:type" content="webiste" />
             <meta property="og:url" content={`${DOMAIN}${router.pathname}`} />
             <meta property="og:site_name" content={`${APP_NAME}`} />
 
-            <meta property="og:image" content={`${DOMAIN}/static/images/seoblog.jpg`} />
-            <meta property="og:image:secure_url" ccontent={`${DOMAIN}/static/images/seoblog.jpg`} />
+            <meta property="og:image" content={`${DOMAIN}/static/images/interview.jpg`} />
+            <meta property="og:image:secure_url" ccontent={`${DOMAIN}/static/images/interview.jpg`} />
             <meta property="og:image:type" content="image/jpg" />
             <meta property="fb:app_id" content={`${FB_APP_ID}`} />
         </Head>
