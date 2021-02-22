@@ -76,7 +76,7 @@ const SingleBlog = ({ blog, query }) => {
             <div className="col-md-4" key={i}>
                 <article>
                     <SmallCard blog={blog} />
-                </article>
+                </article>  
             </div>
         ));
     };
@@ -137,6 +137,7 @@ const SingleBlog = ({ blog, query }) => {
                         <div className="container">
                             <h4 className="text-center pt-5 pb-5 h2">Related blogs</h4>
                             <div className="row">{showRelatedBlog()}</div>
+            
                         </div>
 
                         <div className="container pb-5">

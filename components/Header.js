@@ -6,6 +6,7 @@ import Router from 'next/router'
 import {signout,isAuth} from '../actions/auth'
 import '../static/css/style.css'
 import Search from './blog/Search';
+
 import {
   Collapse,
   Navbar,
@@ -32,11 +33,12 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar className="mainNav" expand="md">
+      <Navbar className="mainNav text-center" expand="md">
         <Link href="/">
             <NavLink style={{cursor:'pointer'}} className="font-weight-bold">{APP_NAME}</NavLink>
         </Link>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler className="setcol" onClick={toggle} />
+      
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar >
 
