@@ -26,7 +26,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className="container-fluid">
-                    <div className="row card mb-3 ml-5 mr-5">
+                    <div className="row card mb-3 ml-3 mr-3">
                         <div className="p-3">
                             <h2 className="card-title text-center">Worried About Placements And Internship Oppurtunities?</h2>
                             <p className="card-text fsize text-center">We bring to you the Interview Experiences from your fellow batchmates in VIT.
@@ -59,7 +59,7 @@ const Index = () => {
                             <img src="../static/images/allrounder.jpeg" width="60%" height="250px" alt="frwe"/>
                         </div>
                     </div> */}
-                    <div className="row card mb-3 ml-5 mr-5">
+                    <div className="row card mb-3 ml-3 mr-3">
                         <div className="p-3">
                             <h2 className="card-title text-center">Technical Blogs - COMING SOON</h2>
                             <p className="card-text text-center fsize">Want to get guidance to learning and expoloring different technical domains, Our blog content will surely help you here!
