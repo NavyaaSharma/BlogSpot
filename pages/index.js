@@ -10,7 +10,7 @@ const Index = () => {
                     <div className="row">
                         <div className="col-md-12 text-center">
                             <h1 className="display-4 font-weight-bold">
-                                One Stop Blogging Platform For VITians.
+                                BlogSpot for Vitians 
                             </h1>
                         </div>
                     </div>
