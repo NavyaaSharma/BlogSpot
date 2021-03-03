@@ -18,7 +18,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
                 content="Blogs for VIT Students.. Explore technical content, interview experiences and much more!"
             />
             <link rel="canonical" href={`${DOMAIN}${router.pathname}`} />
-            <meta property="og:title" content={`One Stop Blogging Platform For VITians. | ${APP_NAME}`} />
+            <meta property="og:title" content={`BlogSpot for Vitians`} />
             <meta
                 property="og:description"
                 content="Blogs for VIT Students.. Explore technical content, interview experiences and much more!"
