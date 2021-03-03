@@ -12,6 +12,7 @@ class MyDocument extends Document {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-XX4LZ2MD0H');
+        gtag('config', 'G-KLQPXTVZL2');
         `
       };
     }
@@ -28,6 +29,7 @@ class MyDocument extends Document {
             <link rel="stylesheet" href="/static/css/style.css" />
             {/* <link rel="stylesheet" href="../node_modules/react-quill/dist/quill.snow.css"/> */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-XX4LZ2MD0H"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-KLQPXTVZL2"></script>
             <script dangerouslySetInnerHTML={this.setGoogleTags()} />
         </Head>
         <body>
